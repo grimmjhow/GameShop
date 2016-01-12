@@ -18,9 +18,9 @@ public class Conexao
     public static Connection getConnetion() throws ClassNotFoundException, SQLException
     {
         String driver = "org.postgresql.Driver";
-        String url = "jdbc:postgresql://pgsql.knowhow.kinghost.net/knowhow1";
-        String user = "knowhow1";
-        String password = "JA_melo2608";
+        String url = "jdbc:postgresql://localhost:5432/Games";
+        String user = "postgres";
+        String password = "admin";
         
         Class.forName(driver);
         
